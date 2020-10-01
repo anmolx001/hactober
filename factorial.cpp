@@ -3,8 +3,8 @@
 #include<iostream> 
 using namespace std; 
   
-// Maximum number of digits in output is 100
-#define MAX 100 
+// Maximum number of digits in output is 500
+#define MAX 500 
   
 int multiply(int x, int ans[], int ans_size); 
 
@@ -23,13 +23,8 @@ void factorial(int n)
         cout << ans[i]; 
 } 
   
-// This function multiplies x with the number  
-// represented by res[]. 
-// res_size is size of res[] or number of digits in the  
-// number represented by res[]. This function uses simple  
-// school mathematics for multiplication. 
-// This function may value of res_size and returns the  
-// new value of res_size 
+// This function multiplies x with the number represented by res[]. 
+// This function may value of res_size and returns the  new value of res_size 
 int multiply(int x, int ans[], int ans_size) 
 { 
     int c = 0;  // Initialize carry 
